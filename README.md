@@ -1,0 +1,1 @@
+RoutBench, a benchmark of 1,000 VRP variants derived from 24 attributes, for evaluating the effectiveness of LLM-based routing solvers in addressing complex constraints.
