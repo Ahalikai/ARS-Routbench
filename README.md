@@ -26,7 +26,7 @@ If you use this work, please cite our paper:
 }
 ```
 
-The paper is available on [arXiv](https://arxiv.org/abs/2502.15359).
+The paper is available on [arXiv](https://arxiv.org/abs/2502.15359v1).
 
 ## Version Information
 
