@@ -9,7 +9,7 @@ Real-world Vehicle Routing Problems (VRPs) are characterized by a variety of pra
 To fill this gap, this repository introduces **ARS (Automatic Routing Solver)**, which employs Large Language Model (LLM) agents to enhance a backbone algorithm framework by automatically generating constraint-aware heuristic code, based on problem descriptions and several representative constraints selected from a database.
 
 ## Key Features
-- **RoutBench **: A benchmark of 1,000 VRP variants derived from 24 attributes, for evaluating the effectiveness of LLM-based routing solvers in addressing complex constraints.
+- **RoutBench**: A benchmark of 1,000 VRP variants derived from 24 attributes, for evaluating the effectiveness of LLM-based routing solvers in addressing complex constraints.
 - **Automatic Constraint Handling**: Automatically generates heuristic code for complex constraints using LLM agents.
 - **Performance**: Outperforms state-of-the-art LLM-based methods and commonly used solvers, solving 91.67% of common VRPs and achieving at least a 30% improvement across all benchmarks.
 
