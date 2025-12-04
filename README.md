@@ -11,7 +11,39 @@ Alongside ARS, we introduce RoutBench, a benchmark comprising 1,000 VRP variants
 
 ## First Large-Scale VRP Benchmark for Generalization
 
-**RoutBench, a benchmark with 1,000 VRP variants**. It not only expands the test scale by two orders of magnitude but also **provides an opportunity to evaluate algorithms on unseen VRPs**.
+**RoutBench, a benchmark with 1,000 VRP variants**. 
+These VRP variants derived from 24 constraints. These constraints are chosen for their practical significance and theoretical challenges, as highlighted in below. 
+
+This design not only expands the test scale by two orders of magnitude but also provides an opportunity to evaluate algorithms on unseen VRPs.
+
+If an algorithm can effectively solve these unseen problems, it demonstrates the potential to address new real-world challenges, better meeting practical application needs.
+
+| Basic Constraints | VRP Variants |
+| :--- | :--- |
+| **Vehicle Capacity (C)** | Capacitated VRP (CVRP) |
+| | Heterogeneous CVRP (HCVRP) |
+| | Multi-Product VRP (MVRP) |
+| | Dynamic CVRP (DCVRP) |
+| **Distance Limit (L)** | VRP with Distance Limit (VRPL) |
+| | Heterogeneous VRPL (HVRPL) |
+| | Recharging VRP (RVRP) |
+| | Dynamic VRPL (DVRPL) |
+| **Time Windows (TW)** | VRP with Time Windows (VRPTW) |
+| | Heterogeneous VRPTW (HVRPTW) |
+| | VRP with Multiple Time Windows (VRPMTW) |
+| | Dynamic VRPTW (DVRPTW) |
+| **Pickup and Delivery (PD)** | VRP with Mixed Pickup and Delivery (VRPMPD) |
+| | Heterogeneous VRPMPD (HVRPMPD) |
+| | Multi-Product VRPMPD (MVRPMPD) |
+| | Dynamic VRPMPD (DVRPMPD) |
+| **Same Vehicle (S)** | VRP with Same Vehicle Constraint (VRPSVC) |
+| | Clustered VRP (CluVRP) |
+| | VRP with Sequential Ordering (VRPSO) |
+| | VRP with Incompatible Loading Constraint (VRPILC) |
+| **Priority (P)** | Precedence constrained VRP (PVRP) |
+| | VRP with Relaxed Priority Rules (VRPRP) |
+| | VRP with Multiple Priorities (VRPMP) |
+| | VRP with d-Relaxed Priority Rule (VRP-dRP) |
 
 ## Dataset Construction
 
